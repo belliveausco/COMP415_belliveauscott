@@ -48,7 +48,7 @@ func reportResults(map1 map[string]int) {
 	sort.Strings(keys)
 
 	for _, k := range keys {
-		fmt.Println(k,"'s count is", m[k])
+		fmt.Println(k, "has a count of", m[k])
 	}
 
 }
